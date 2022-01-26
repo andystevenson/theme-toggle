@@ -1,6 +1,6 @@
 {
   "name": "@andystevenson/theme-toggle",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "description": "theme toggle for light/dark mode and prefers-color-scheme",
   "main": "index.js",
   "type": "module",

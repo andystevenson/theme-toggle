@@ -1,3 +1,5 @@
+// import toggle from '@andystevenson/theme-toggle'
+
 // function to attach dark/light theme to the whole document
 const html = document.firstElementChild
 
@@ -30,12 +32,14 @@ initPreference()
 const goLight = () => setPreference('light')
 const goDark = () => setPreference('dark')
 
-const toggleTheme = () => (theme === 'light' ? goDark() : goLight())
-
 // set up the listeners looking for the user to do an OS level preference change
-prefersDark.addEventListener('change', toggleTheme)
+const userPreference = () => (prefersDark.matches ? goDark() : goLight())
+
+prefersDark.addEventListener('change', userPreference)
 
 // once the DOM has loaded attach to the theme-toggler to watch for click events, if he's there at all
+const toggleTheme = () => (theme === 'light' ? goDark() : goLight())
+
 document.addEventListener('DOMContentLoaded', () => {
   const toggler = document.querySelector('#theme-toggler')
   toggler?.addEventListener('click', toggleTheme)
