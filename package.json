@@ -1,0 +1,24 @@
+{
+  "name": "@andystevenson/theme-toggle",
+  "version": "0.1.0",
+  "description": "browser theme toggler",
+  "main": "index.js",
+  "scripts": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andystevenson/theme-toggle.git"
+  },
+  "keywords": [
+    "theme",
+    "toggle",
+    "browser",
+    "html",
+    "javascript"
+  ],
+  "author": "andystevenson@mac.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/andystevenson/theme-toggle/issues"
+  },
+  "homepage": "https://github.com/andystevenson/theme-toggle#readme"
+}
