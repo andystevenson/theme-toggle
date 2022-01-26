@@ -1,7 +1,7 @@
 <h1 align="center">
 	<br>
-	<img width="60" src="/favicon.svg" alt="theme-toggler">
-  <p>theme-toggler</p>
+	<img width="60" src="/favicon.svg" alt="theme-toggle">
+  <p>theme-toggle</p>
   <span>
 	<br>
 	<br>
@@ -57,7 +57,7 @@ html[data-theme='light'] [data-theme='dark'].theme-toggle {
 
 ```html
 <head>
-  <script type="module" src="./theme-toggler.js"></script>
+  <script type="module" src="./theme-toggle.js"></script>
   <!-- assuming theme-toggler.js would do the following -->
   <!-- import toggle from '@andystevenson/theme-toggle' -->
   ...
@@ -73,7 +73,7 @@ The rationale for doing it like this
 
 To make the toggle work the HTML page must contain a clickable element with **id="theme-toggler"** _(can be anything... even a div)_.
 
-What happens when user clicks/selects the _**theme-toggler**_ is an attribute **data-theme'** is attached to the **<_html_>** document tag. What the **_theme-toggle_** library is doing is switching between **data-theme='dark'** and **data-theme='light'**. How you then style these is up to you. See the trivial CSS above as an example. Have a look at the git hub repo [<img src='./GitHub-Mark-32px.png' width="16">](https://github.com/andystevenson/theme-toggle) for a full example with a working [**index.html**](https://github.com/andystevenson/theme-toggle/blob/master/index.html) example. <br>
+What happens when user clicks/selects the _**theme-toggler**_ is an attribute **data-theme'** is attached to the **<_html_>** document tag. What the **_theme-toggle_** library is doing is switching between **data-theme='dark'** and **data-theme='light'**. How you then style these is up to you. See the trivial CSS above as an example. Have a look at the git hub repo [<img src='./GitHub-Mark-32px.png' width="16">](https://github.com/andystevenson/theme-toggle) for a full example with a working [**index.html**](https://github.com/andystevenson/theme-toggle/blob/master/index.html) example. The **package.json** uses [<img src='https://vitejs.dev/logo.svg' width="16">](https://vitejs.dev/) as the bundler. <br>
 
 ## Credits
 
