@@ -75,9 +75,11 @@ To make the toggle work the HTML page must contain a clickable element with **id
 
 What happens when user clicks/selects the _**theme-toggler**_ is an attribute **data-theme'** is attached to the **<_html_>** document tag. What the **_theme-toggle_** library is doing is switching between **data-theme='dark'** and **data-theme='light'**. How you then style these is up to you. See the trivial CSS above as an example. Have a look at the git hub repo [<img src='./GitHub-Mark-32px.png' width="16">](https://github.com/andystevenson/theme-toggle) for a full example with a working [**index.html**](https://github.com/andystevenson/theme-toggle/blob/master/index.html) example. <br>
 
-## People
+## Credits
 
 All credit to [Adam Argyle](https://github.com/argyleink) for the inspiration.
+
+I used a couple of SVG icons from the very useful [Bootstrap Icons Library](https://icons.getbootstrap.com/).
 
 ## License
 
