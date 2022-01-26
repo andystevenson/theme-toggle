@@ -69,10 +69,11 @@ The rationale for doing it like this
 > _Quoting from Adam Argyle..._<br>
 > To achieve this, a plain **<_script_>** tag in the document **<_head_>** is loaded first, before any CSS or **<_body_>** markup. When the browser encounters an unmarked script like this, it runs the code and executes it before the rest of the HTML. Using this blocking moment sparingly, it's possible to set the HTML attribute before the main CSS paints the page, thus preventing a flash or colors.
 
-###_Under the covers_
+### Under the covers
+
 To make the toggle work the HTML page must contain a clickable element with **id="theme-toggler"** _(can be anything... even a div)_.
 
-What happens when user clicks/selects the _**theme-toggler**_ is an attribute **data-theme'** is attached to the **<_html_>** document tag. What the **_theme-toggle_** library is doing is switching between **data-theme='dark'** and **data-theme='light'**. How you then style these is up to you. See the trivial CSS above as an example. Have a look at the git hub repo [<img src='./GitHub-Mark-32px.png' width="16">](https://github.com/andystevenson/theme-toggle) for a full example with a working [**index.html**](https://github.com/andystevenson/theme-toggle/blob/master.index.html) example. <br>
+What happens when user clicks/selects the _**theme-toggler**_ is an attribute **data-theme'** is attached to the **<_html_>** document tag. What the **_theme-toggle_** library is doing is switching between **data-theme='dark'** and **data-theme='light'**. How you then style these is up to you. See the trivial CSS above as an example. Have a look at the git hub repo [<img src='./GitHub-Mark-32px.png' width="16">](https://github.com/andystevenson/theme-toggle) for a full example with a working [**index.html**](https://github.com/andystevenson/theme-toggle/blob/master/index.html) example. <br>
 
 ## People
 
