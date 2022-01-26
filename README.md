@@ -7,7 +7,7 @@
 	<br>
 </h1>
 
-> a simple javascript/css solution for toggling themes on websites
+> a simple javascript/css solution for toggling light/dark themes on websites
 
 ---
 
